@@ -6,8 +6,8 @@ get User IP address, Browser, Operating system and Device in PHP
 class UserInfo {
     public static function ip () { return $IP } /* get User IP Adress */
     public static function os () { return $OS } /* get User Operarting */
-    public static function device () { return $Device } /* get User Device */
-    public static function browser () { return $Browser } /* get User Browswer */
+    public static function device () { return $user_device } /* get User Device */
+    public static function browser () { return $user_browser } /* get User Browswer */
 }
 ```
 
